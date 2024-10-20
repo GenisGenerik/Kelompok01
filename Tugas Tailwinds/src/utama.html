@@ -1,140 +1,223 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav class="w-full bg-blue-200 h-14 flex ">
-            <div class="w-1/4 bg-red-500 h-14" >
-                <img src="" alt=""  class="w-1/3.5 h-10 my-2 ml-10">
-            </div>
-            <div class="w-1/2 bg-white h-14 flex justify-center items-center" >
-              <div class="mx-5">
-                <a href="">Home</a>
-            </div>
-            <div class="mx-5">
-              <a href="">About</a>
-          </div>
-          <div class="mx-5">
-            <a href="">Service</a>
+
+<body class="mx-auto">
+  <header class="fixed top-0 left-0 bottom-0 right-0">
+    <nav class="w-full bg-orange-300 h-14 flex">
+      <div class="w-1/4 h-14">
+        <img src="../asset/logo.png" alt="" class="w-1/3.5 h-10 my-2 ml-20">
+      </div>
+      <div class="w-1/2 bg-orange-300 h-14 flex justify-center items-center">
+        <div class="mx-5">
+          <a href="">Home</a>
+        </div>
+        <div class="mx-5">
+          <a href="">About</a>
+        </div>
+        <div class="mx-5">
+          <a href="">Service</a>
         </div>
         <div class="mx-5">
           <a href="">Contact</a>
+        </div>
       </div>
-            </div>
-            <div class="w-1/4 bg-yellow-200 h-14 flex items-center" >
-                <button class="bg-green-300 rounded-xl px-7 py-1 ml-20">Tombol</button>
-                <img src="{{ asset('gambar/search.png') }}" alt="" class="w-[20px] ml-4">
-            </div>
-        </nav>
-    </header>
-    <article>
-        <div class="w-full h-[70vh] bg-orange-300 flex mt-3">
-           <div class="w-1/2 bg-blue-800 flex justify-center items-center" >
-            <div class="w-1/2 ">
-                <h1 class="font-bold text-2xl ">Temukan Mimpimu, Wujudkan Cita-citamu.</h1>
-                <h2>Kami hadir untuk membantu kamu menemukan dan mewujudkan mimpi yang ada dalam hatimu. Bergabunglah dalam perjalanan ini!</h2>
-                <button class="bg-yellow-200 px-7 py-1 rounded-lg mt-20">Temukan ></button>
-            </div>
-                
-            </div>
-           <div class="w-1/2 bg-yellow-800 mx-10">
-                <img src="{{ asset('gambar/office.png') }}" alt="" class="ml-5"></div>
-            </div>
-    </article>
-    <article >
-            <div class="w-full h-[150px] gap-14 flex justify-center mt-10 ">
-                <div class="w-1/4 h-full bg-cyan-300 rounded-3xl flex border-2 border-black ">
-                  <img src="../asset/doctor.png" alt="" class="w-1/2 ">
-                  <div class="w-1/2 rounded-3xl flex-row ">
-                    <h1 class="font-bold font-serif mt-2 text-center text-2xl">Doctor</h1>
-                    <p class="text-left ml-3 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. ?</p>
-                  </div>
-                </div>
-                <div class="w-1/4 h-full bg-cyan-300 rounded-3xl flex border-2 border-black ">
-                  <img src="../asset/doctor.png" alt="" class="w-1/2 ">
-                  <div class="w-1/2 rounded-3xl flex-row ">
-                    <h1 class="font-bold font-serif mt-2 text-center text-2xl">Doctor</h1>
-                    <p class="text-left ml-3 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. ?</p>
-                  </div>
-                </div>
-                <div class="w-1/4 h-full bg-cyan-300 rounded-3xl flex border-2 border-black ">
-                  <img src="../asset/doctor.png" alt="" class="w-1/2 ">
-                  <div class="w-1/2 rounded-3xl flex-row ">
-                    <h1 class="font-bold font-serif mt-2 text-center text-2xl">Doctor</h1>
-                    <p class="text-left ml-3 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. ?</p>
-                  </div>
-                </div>
-          </div>
-          <div class="w-full h-[150px] gap-14 flex justify-center mt-10 ">
-            <div class="w-1/4 h-full bg-cyan-300 rounded-3xl flex border-2 border-black ">
-              <img src="../asset/doctor.png" alt="" class="w-1/2 ">
-              <div class="w-1/2 rounded-3xl flex-row ">
-                <h1 class="font-bold font-serif mt-2 text-center text-2xl">Doctor</h1>
-                <p class="text-left ml-3 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. ?</p>
-              </div>
-            </div>
-            <div class="w-1/4 h-full bg-cyan-300 rounded-3xl flex border-2 border-black ">
-              <img src="../asset/doctor.png" alt="" class="w-1/2 ">
-              <div class="w-1/2 rounded-3xl flex-row ">
-                <h1 class="font-bold font-serif mt-2 text-center text-2xl">Doctor</h1>
-                <p class="text-left ml-3 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. ?</p>
-              </div>
-            </div>
-            <div class="w-1/4 h-full bg-cyan-300 rounded-3xl flex border-2 border-black ">
-              <img src="../asset/doctor.png" alt="" class="w-1/2 ">
-              <div class="w-1/2 rounded-3xl flex-row ">
-                <h1 class="font-bold font-serif mt-2 text-center text-2xl">Doctor</h1>
-                <p class="text-left ml-3 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. ?</p>
-              </div>
-            </div>
+      <div class="w-1/4 bg-orange-300 h-14 flex items-center justify-center">
+        <button class="bg-orange-800 rounded-xl px-7 py-1 ">Login</button>
+        <img src="../asset/search.png" alt="" class="w-[20px] ml-20 ">
       </div>
-    </article>
-    <article>
-      <div class="w-full h-60 bg-slate-400 mt-10">
-          <div class="w-full h-full bg-slate-100 flex justify-center gap-4">
-            <div class="w-2/12 bg-yellow-50 border-2 border-black rounded-lg flex-col  justify-center ">
-              <div class="w-full bg-slate-300 h-2/6  mt-4 flex justify-center">
-                <div class="w-1/3 h-full bg-gray-500 rounded-full"></div>
-              </div>
-              <div class="w-full h-2/4 bg-red-400 mt-4 text-center">
-                <h1 class="font-bold text-xl">Halo</h1>
-                <p class="text-sm mx-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis porro excepturi nobis debitis</p>
-              </div>
-            </div>
-            <div class="w-2/12 bg-yellow-50 border-2 border-black rounded-lg flex-col  justify-center ">
-              <div class="w-full bg-slate-300 h-2/6  mt-4 flex justify-center">
-                <div class="w-1/3 h-full bg-gray-500 rounded-full"></div>
-              </div>
-              <div class="w-full h-2/4 bg-red-400 mt-4 text-center">
-                <h1 class="font-bold text-xl">Halo</h1>
-                <p class="text-sm mx-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis porro excepturi nobis debitis</p>
-              </div>
-            </div>
-            <div class="w-2/12 bg-yellow-50 border-2 border-black rounded-lg flex-col  justify-center ">
-              <div class="w-full bg-slate-300 h-2/6  mt-4 flex justify-center">
-                <div class="w-1/3 h-full bg-gray-500 rounded-full"></div>
-              </div>
-              <div class="w-full h-2/4 bg-red-400 mt-4 text-center">
-                <h1 class="font-bold text-xl">Halo</h1>
-                <p class="text-sm mx-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis porro excepturi nobis debitis</p>
-              </div>
-            </div>
-            <div class="w-2/12 bg-yellow-50 border-2 border-black rounded-lg flex-col  justify-center ">
-              <div class="w-full bg-slate-300 h-2/6  mt-4 flex justify-center">
-                <div class="w-1/3 h-full bg-gray-500 rounded-full"></div>
-              </div>
-              <div class="w-full h-2/4 bg-red-400 mt-4 text-center">
-                <h1 class="font-bold text-xl">Halo</h1>
-                <p class="text-sm mx-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis porro excepturi nobis debitis</p>
-              </div>
+    </nav>
+  </header>
+  <article>
+    <div class="h-[70vh] bg-orange-300 flex mt-20 mx-20 rounded-xl">
+      <div class="w-1/2 flex justify-center items-center ml-12">
+        <div class="w-1/2 ">
+          <h1 class="font-bold text-2xl ">Temukan Mimpimu, Wujudkan Cita-citamu.</h1>
+          <h2>Kami hadir untuk membantu kamu menemukan dan mewujudkan mimpi yang ada dalam hatimu. Bergabunglah dalam
+            perjalanan ini!</h2>
+          <button
+            class="bg-orange-800 px-6 py-2 rounded-lg mt-20 after:content-['>'] after:ml-1 after:font-bold ">Temukan</button>
+        </div>
+
+      </div>
+      <div class="w-1/2 mx-10 flex  items-center">
+        <img src="../asset/dance.png" alt="" class="ml-5 w-96 h-96 ">
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="font-bold mt-6 text-2xl ml-20">
+      <h1>Temukan Cita Citamu Dari Sekarang</h1>
+    </div>
+    <div class="w-full h-[150px] gap-16 flex justify-center mt-6 ">
+      <div class="w-1/4 h-full bg-orange-300 rounded-3xl flex border-2 border-black ">
+        <div class="flex justify-center items-center ml-6">
+          <img src="../asset/nurse.png" alt="" class="w-32 h-32 ">
+        </div>
+        <div class="w-2/3 rounded-3xl flex-row ">
+          <h1 class="font-bold font-serif mt-2 text-center text-2xl">Dokter</h1>
+          <p class="text-left ml-5 mt-2 text-xs">Seorang profesional kesehatan yang terlatih untuk mendiagnosis penyakit,
+            memberikan perawatan, dan menjaga kesehatan pasien.</p>
+        </div>
+      </div>
+      <div class="w-1/4 h-full bg-orange-300 rounded-3xl flex border-2 border-black ">
+        <div class="flex justify-center items-center ml-6">
+          <img src="../asset/police.png" alt="" class="w-32 h-32 ">
+        </div>
+        <div class="w-2/3 rounded-3xl flex-row ">
+          <h1 class="font-bold font-serif mt-2 text-center text-2xl">Pilot</h1>
+          <p class="text-left ml-5 mt-2 text-xs">Seorang profesional yang mengoperasikan pesawat terbang, bertanggung jawab atas keselamatan penerbangan, dan memastikan perjalanan yang lancar.</p>
+        </div>
+      </div>
+      <div class="w-1/4 h-full bg-orange-300 rounded-3xl flex border-2 border-black ">
+        <div class="flex justify-center items-center ml-6">
+          <img src="../asset/chef.png" alt="" class="w-32 h-32 ">
+        </div>
+        <div class="w-2/3 rounded-3xl flex-row ">
+          <h1 class="font-bold font-serif mt-2 text-center text-2xl">Chef</h1>
+          <p class="text-left ml-5 mt-2 text-xs">Seorang profesional yang ahli dalam memasak,menciptakan hidangan yang
+            lezat, kreatif, dan memenuhi standar kualitas tinggi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-full h-[150px] gap-14 flex justify-center mt-10 ">
+      <div class="w-1/4 h-full bg-orange-300 rounded-3xl flex border-2 border-black ">
+        <div class="flex justify-center items-center ml-6">
+          <img src="../asset/singer.png" alt="" class="w-32 h-32 ">
+        </div>
+        <div class="w-2/3 rounded-3xl flex-row ">
+          <h1 class="font-bold font-serif mt-2 text-center text-2xl">Penyanyi</h1>
+          <p class="text-left ml-5 mt-2 text-xs">Individu yang menggunakan suara mereka untuk menyampaikan emosi, cerita, dan pesan melalui lagu.</p>
+        </div>
+      </div>
+      <div class="w-1/4 h-full bg-orange-300 rounded-3xl flex border-2 border-black ">
+        <div class="flex justify-center items-center ml-6">
+          <img src="../asset/painter.png" alt="" class="w-32 h-32 ">
+        </div>
+        <div class="w-2/3 rounded-3xl flex-row ">
+          <h1 class="font-bold font-serif mt-2 text-center text-2xl">Seniman</h1>
+          <p class="text-left ml-5 mt-2 text-xs">Individu kreatif yang mengekspresikan ide dan emosi melalui berbagai bentuk seni, seperti lukisan, patung, musik, atau tari.</p>
+        </div>
+      </div>
+      <div class="w-1/4 h-full bg-orange-300 rounded-3xl flex border-2 border-black ">
+        <div class="flex justify-center items-center ml-6">
+          <img src="../asset/teacher.png" alt="" class="w-32 h-32 ">
+        </div>
+        <div class="w-2/3 rounded-3xl flex-row ">
+          <h1 class="font-bold font-serif mt-2 text-center text-2xl">Guru</h1>
+          <p class="text-left ml-5 mt-2 text-xs">Seorang pendidik profesional yang memfasilitasi pembelajaran siswa, membimbing mereka dalam mencapai potensi maksimal, dan menanamkan nilai-nilai positif.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="font-bold mt-6 text-2xl ml-20">
+      <h1>Kenapa Harus Kita</h1>
+    </div>
+    <div class="w-full h-64  mt-10">
+      <div class="w-full h-full flex justify-center gap-4">
+        <div class="w-2/12  border-2 border-black rounded-lg flex-col  justify-center ">
+          <div class="w-full h-2/6  mt-4 flex justify-center">
+            <div class="w-20  border-2 h-20 border-black   rounded-full flex justify-center items-center bg-orange-300">
+              <img src="../asset/edit.png" alt="" class="w-1/2">
             </div>
           </div>
+          <div class="w-full h-2/4 mt-4 text-center">
+            <h1 class="font-bold text-xl">Test Minat dan Bakat</h1>
+            <p class="text-sm mx-2 mt-2">Disini kalian akan mendapatkan sebuah test untuk mengenali minat dan bakat
+              kalian</p>
+          </div>
+        </div>
+        <div class="w-2/12  border-2 border-black rounded-lg flex-col  justify-center ">
+          <div class="w-full h-2/6  mt-4 flex justify-center">
+            <div class="w-20  border-2 h-20 border-black   rounded-full flex justify-center items-center bg-orange-300">
+              <img src="../asset/user.png" alt="" class="w-1/2">
+            </div>
+          </div>
+          <div class="w-full h-2/4 mt-4 text-center">
+            <h1 class="font-bold text-xl">Test Kepribadian</h1>
+            <p class="text-sm mx-2 mt-2">Membantu kalian untuk mengenali diri kalian sendiri lebih dalam</p>
+          </div>
+        </div>
+        <div class="w-2/12  border-2 border-black rounded-lg flex-col  justify-center ">
+          <div class="w-full h-2/6  mt-4 flex justify-center">
+            <div class="w-20  border-2 h-20 border-black   rounded-full flex justify-center items-center bg-orange-300">
+              <img src="../asset/search.png" alt="" class="w-1/2">
+            </div>
+          </div>
+          <div class="w-full h-2/4 mt-4 text-center">
+            <h1 class="font-bold text-xl">Profesi</h1>
+            <p class="text-sm mx-2">Memberikan gambaran profesi apa yang cocok dengan minat,bakat dan kepribadian anda
+            </p>
+          </div>
+        </div>
+        <div class="w-2/12  border-2 border-black rounded-lg flex-col  justify-center ">
+          <div class="w-full h-2/6  mt-4 flex justify-center">
+            <div class="w-20  border-2 h-20 border-black   rounded-full flex justify-center items-center bg-orange-300">
+              <img src="../asset/world.png" alt="" class="w-1/2">
+            </div>
+          </div>
+          <div class="w-full h-2/4 mt-4 text-center">
+            <h1 class="font-bold text-xl">Database Profesi</h1>
+            <p class="text-sm mx-2">Deskripsi detail tentang berbagai jenis profesi, termasuk tugas sehari-hari,
+              pendidikan yang dibutuhkan, prospek karier, dan gaji.</p>
+          </div>
+        </div>
       </div>
-    </article>
-    
+    </div>
+  </article>
+  <footer>
+    <div class="w-full h-fit mt-10">
+      <div class="w-full bg-orange-200 h-16 flex justify-center items-center">
+        <div class="text-black font-bold text-2xl">Bingung mau jadi apa? Kami bantu menemukan jawabannya!</div>
+      </div>
+      <div class="w-full bg-orange-300 h-56 flex justify-center items-center gap-4 ">
+        <div class="w-1/6 h-full">
+          <img src="../asset/logo.png" alt="" class="w-1/2 mt-10">
+        </div>
+        <div class="w-1/6 h-full">
+          <div class="mt-10">
+            <h1 class="font-bold">Helpull links</h1>
+            <div class="ml-4">
+              <ol class="list-decimal">
+                <li><a href="">Link1</a></li>
+                <li><a href="">Link2</a></li>
+                <li><a href="">Link3</a></li>
+                <li><a href="">Link4</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/4 h-full ">
+          <div class="mt-10">
+            <h1 class="font-bold">Heloo Dunia</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Ab velit sapiente ducimus consequuntur fugiat deserunt non
+              veniam temporibus quas ratione aliquam iusto doloremque quasi eos ullam tenetur, id natus quod?</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full h-12 bg-orange-300 flex justify-center">
+        <div class="w-2/3">
+          <hr class="h-1 bg-black border-0 rounded  ">
+          <div class="flex gap-2 float-end mt-2">
+            <img src="../asset/instagram.png" alt="" class="w-7 h-7">
+            <img src="../asset/whatsapp.png" alt="" class="w-7 h-7 ml-2">
+            <img src="../asset/facebook.png" alt="" class="w-7 h-7">
+          </div>
+          <div class="float-star mt-1">
+            <p>Pembuat Genis Generik </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
