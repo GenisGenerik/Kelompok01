@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex min-h-screen">
+        <div class="w-1/5 bg-orange-300 text-black shadow-lg">
+            <nav class="mt-8">
+                <div class="flex justify-center mb-6">
+                    <img src="../asset/logo.png" alt="Logo" class="w-2/3 h-auto">
+                </div>
+                <ul>
+                    <li class="px-6 py-4 hover:bg-orange-500 hover:text-white transition duration-200 flex items-center">
+                        <img src="../asset/dash.png" alt="Dashboard" class="w-6 h-6 mr-3">
+                        <a href="" class="text-lg">Dashboard</a>
+                    </li>
+                    <li class="px-6 py-4 hover:bg-orange-500 hover:text-white transition duration-200 flex items-center">
+                        <img src="../asset/about.png" alt="About" class="w-6 h-6 mr-3">
+                        <a href="" class="text-lg">About</a>
+                    </li>
+                    <li class="px-6 py-4 hover:bg-orange-500 hover:text-white transition duration-200 flex items-center">
+                        <img src="../asset/page.png" alt="Pages" class="w-6 h-6 mr-3">
+                        <a href="" class="text-lg">Page</a>
+                    </li>
+                    <li class="px-6 py-4 hover:bg-orange-500 hover:text-white transition duration-200 flex items-center">
+                        <img src="../asset/service.png" alt="Service" class="w-6 h-6 mr-3">
+                        <a href="" class="text-lg">Service</a>
+                    </li>
+                    <li class="px-6 py-4 hover:bg-orange-500 hover:text-white transition duration-200 flex items-center">
+                        <img src="../asset/help.png" alt="Help" class="w-6 h-6 mr-3">
+                        <a href="" class="text-lg">Help</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="w-4/5 p-8 bg-white">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="text-4xl font-bold text-gray-800">Administrator Dashboard</h1>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <input type="text" placeholder="Search..." class="bg-gray-200 border-2 border-gray-300 text-gray-700 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400 w-64">
+                    </div>
+                    <div class="relative">
+                        <img class="w-12 h-12 rounded-full border-2 border-gray-500 cursor-pointer" src="../asset/user.png" alt="Profile">
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 gap-8">
+                <div class="p-6 bg-orange-300 rounded-lg shadow-lg flex items-center hover:bg-orange-500 hover:text-white transition duration-200">
+                    <img src="../asset/users-alt.png" alt="Users" class="w-12 h-12 mr-4">
+                    <div>
+                        <h3 class="text-2xl font-semibold">100k</h3>
+                        <p class="text-lg">Users</p>
+                    </div>
+                </div>
+                
+                <div class="p-6 bg-orange-300 rounded-lg shadow-lg flex items-center hover:bg-orange-500 hover:text-white transition duration-200">
+                    <img src="../asset/page.png" alt="Pages" class="w-12 h-12 mr-4">
+                    <div>
+                        <h3 class="text-2xl font-semibold">10</h3>
+                        <p class="text-lg">Pages</p>
+                    </div>
+                </div>
+                
+                <div class="p-6 bg-orange-300 rounded-lg shadow-lg flex items-center hover:bg-orange-500 hover:text-white transition duration-200">
+                    <img src="../asset/list.png" alt="List" class="w-12 h-12 mr-4">
+                    <div>
+                        <h3 class="text-2xl font-semibold">50</h3>
+                        <p class="text-lg">List of Goals</p>
+                    </div>
+                </div>
+                
+                <div class="p-6 bg-orange-300 rounded-lg shadow-lg flex items-center hover:bg-orange-500 hover:text-white transition duration-200">
+                    <img src="../asset/list.png" alt="List" class="w-12 h-12 mr-4">
+                    <div>
+                        <h3 class="text-2xl font-semibold">50</h3>
+                        <p class="text-lg">List of Professions</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
