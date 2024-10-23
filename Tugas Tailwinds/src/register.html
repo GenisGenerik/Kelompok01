@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Register</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-500">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-gray-800">Buat Akun</h2>
+                <p class="text-gray-600 mt-2">Isi Dibawah Ini</p>
+            </div>
+
+            <form>
+                <!-- Masukan Nama Lengkap -->
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="namalengkap">
+                        Nama Lengkap
+                    </label>
+                    <input 
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="namalengkap"
+                        type="text"
+                        placeholder="Asep"
+                        required
+                    >
+                </div>
+
+                <!-- Masukan Email -->
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Alamat Email
+                    </label>
+                    <input 
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email"
+                        type="email"
+                        placeholder="asep@example.com"
+                        required
+                    >
+                </div>
+
+                <!-- Masukan Password -->
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                        Password
+                    </label>
+                    <input 
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="password"
+                        type="password"
+                        placeholder="••••••••"
+                        required
+                    >
+                </div>
+
+                <!-- Konfirmasi Password-->
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="konfirmasiPassword">
+                        Konfirmasi Password
+                    </label>
+                    <input 
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="konfirmasiPassword"
+                        type="password"
+                        placeholder="••••••••"
+                        required
+                    >
+                </div>
+
+                <!-- Tombol Daftar -->
+                <div class="mb-6">
+                    <button 
+                        class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="submit"
+                    >
+                        Daftar
+                    </button>
+                </div>
+
+                <!-- Link Login -->
+                <div class="text-center">
+                    <p class="text-gray-600 text-sm">
+                        Sudah Mempunyai Akun? 
+                        <a href="#" class="text-blue-500 hover:text-blue-700">Login disini</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
