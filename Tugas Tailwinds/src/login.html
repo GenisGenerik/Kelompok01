@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
 </head>
-
-<body class="bg-orange-800 flex justify-center items-center min-h-screen">
-    <div class="container max-w-sm bg-white p-10 rounded-md shadow-sm border">
-        <h1 class="text-3xl font-thin text-center ">LOGIN</h1>
-        <form action=" " class="mt-6">
-            <label for="username" class="block">
-                <span class="block font-semibold text-sm">Username</span>
-                <input type="text" id="username" class="block mt-1 border border-sky-300 rounded-md w-full p-2" placeholder="Enter username">
-            </label>
-            <label for="password" class="block mt-4">
-                <span class="block font-semibold text-sm">Password</span>
-                <input type="password" id="password" class="block mt-1 border border-sky-300 rounded-md w-full p-2" placeholder="Enter password">
-            </label>
-            <button type="submit" class="mt-5 text-sm bg-sky-400 border border-sky-500 px-2 py-1 rounded-md text-black w-full">
-                LOGIN
-            </button>
-        </form>
-    </div>
+<body>
+    <body class=" min-h-screen flex flex-col justify-center items-center">
+        
+        
+        <div class="bg-slate-500 rounded-xl border-black border">
+            <div class=" bg-cyan-100 rounded-t-xl font-bold pl-5"><h1>Start Your Journey</h1></div>
+            <div class="flex">
+                <div class="container max-w-sm h-[340px] flex justify-center items-center">
+                    <img src="../asset/camping.png" alt="" class="w-80 p-5">
+                </div>
+                <div class="container max-w-sm p-10 ">
+                    <h1 class="text-3xl  text-center font-bold ">LOGIN</h1>
+                    <form action=" " class="mt-6">
+                        <label for="username" class="block">
+                            <span class="block font-semibold text-sm">Username</span>
+                            <input type="text" id="username" class="block mt-1 border border-sky-300 rounded-md w-full p-2" placeholder="Enter username">
+                        </label>
+                        <label for="password" class="block mt-4">
+                            <span class="block font-semibold text-sm">Password</span>
+                            <input type="password" id="password" class="block mt-1 border border-sky-300 rounded-md w-full p-2" placeholder="Enter password">
+                        </label>
+                        <button type="submit" class="mt-5 text-sm bg-orange-800 border px-2 py-1 rounded-md text-white border-black font-bold w-full">
+                            LOGIN
+                        </button>
+                    </form>
+                </div>
+            </div>  
+        </div>
+        
 </body>
-
 </html>
